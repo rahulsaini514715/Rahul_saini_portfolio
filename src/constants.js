@@ -17,6 +17,12 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import netlifylogo from './assets/tech_logo/netlifylogo.png';
 import RenderLogo from './assets/tech_logo/RenderLogo.jpg';
+import AngularLogo from './assets/tech_logo/angular.png';
+import TailwindLogo from './assets/tech_logo/tailwindcss.png';
+import FigmaLogo from './assets/tech_logo/figma.jpeg';
+
+
+
 // Experience Section Logo's
 //for future
 
@@ -27,7 +33,7 @@ import rasoni from './assets/education_logo/raisoni.png';
 import vidya_logo from './assets/education_logo/vidya_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
+import Road_Help_project_Logo from './assets/work_logo/Road_Help_project.png'; 
 import EccomerceLogo from './assets/work_logo/EccomerceLogo.png';
 import WeatherLogo from './assets/work_logo/WeatherLogo.png';
 
@@ -41,8 +47,10 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
+      { name: 'Angular', logo: AngularLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
       { name: 'JQuery', logo: jQueryLogo },
+      { name: 'Tailwind.css', logo: TailwindLogo },
     ],
   },
   {
@@ -70,6 +78,7 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Netlify', logo: netlifylogo},
       { name: 'Render', logo: RenderLogo },
+      { name: 'Figma', logo: FigmaLogo },
     ],
   },
 ];
@@ -128,15 +137,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+   
+     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Rapid Road Help",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/rahulsaini514715/Github_search-profile",
-      webapp: "https://github-profile-search-rahul.netlify.app/",
+        "A web-based roadside assistance platform that provides instant help during emergencies, including breakdown support, fuel delivery, towing services, and on-site mechanic help. The system includes an easy-to-use admin panel where requests can be managed, and mechanics can be quickly assigned to assist users in real time",
+      image: Road_Help_project_Logo,
+      tags: ["HTML", "CSS", "JavaScript","Bootstrap" ,"React JS", "Nodejs","Express","MongoDb"],
+      github: "https://github.com/rahulsaini514715/Rapid_Road_Help",
+      webapp: "https://roadbuddy-help.netlify.app/",
     },
     {
       id: 1,
